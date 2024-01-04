@@ -1,8 +1,8 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
-import { Rating, Restaurant } from 'src/app/classes/restaurants';
-import { HttpClient } from '@angular/common/http';
-import { FilterEmitterService } from 'src/app/services/filter-emitter/filter-emitter.service';
+import { Rating } from 'src/app/classes/restaurants';
 import { RestaurantCollection } from 'src/app/classes/restaurant-collection';
+import { FilterEmitterService } from 'src/app/services/filter-emitter/filter-emitter.service';
+import * as restaurantData from '../../../assets/restaurant.json';
 
 @Component({
 	selector: 'home',
@@ -12,18 +12,15 @@ import { RestaurantCollection } from 'src/app/classes/restaurant-collection';
 })
 export class HomeComponent implements OnInit
 {
-
-	private URL = '../../../assets/restaurant.json';
 	collection: RestaurantCollection;
 
 	constructor(
-		private http_client: HttpClient,
 		private emitter: FilterEmitterService
 	) { }
 
 	ngOnInit(): void
 	{
-		this.http_client.get<Restaurant[]>(this.URL).subscribe(r => this.collection = new RestaurantCollection(r));
+		this.collection = new RestaurantCollection(Object.values(restaurantData))
 		this.emitter.search.subscribe(q => this.collection.search(q));
 	}
 
