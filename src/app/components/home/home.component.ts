@@ -2,7 +2,7 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { Rating } from 'src/app/classes/restaurants';
 import { RestaurantCollection } from 'src/app/classes/restaurant-collection';
 import { FilterEmitterService } from 'src/app/services/filter-emitter/filter-emitter.service';
-import * as restaurantData from '../../../assets/restaurant.json';
+import { RestaurantList } from 'src/app/classes/restaurant-list';
 
 @Component({
 	selector: 'home',
@@ -20,7 +20,7 @@ export class HomeComponent implements OnInit
 
 	ngOnInit(): void
 	{
-		this.collection = new RestaurantCollection(Object.values(restaurantData))
+		this.collection = new RestaurantCollection(RestaurantList);
 		this.emitter.search.subscribe(q => this.collection.search(q));
 	}
 
