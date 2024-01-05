@@ -21,9 +21,15 @@ export interface Meal
 
 export interface Rating
 {
-	sunny?: number;
-	roi?: number;
-	kishant?: number;
-	ray?: number;
-	kevin?: number;
+	sunny?: RatingValue;
+	roi?: RatingValue;
+	kishant?: RatingValue;
+	ray?: RatingValue;
+	kevin?: RatingValue;
+}
+
+export interface RatingValue
+{
+	rate?: number;
+	comment?: string;
 }

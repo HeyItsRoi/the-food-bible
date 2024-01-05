@@ -1,8 +1,10 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
-import { Rating } from 'src/app/classes/restaurants';
+import { Rating, Restaurant } from 'src/app/classes/restaurants';
 import { RestaurantCollection } from 'src/app/classes/restaurant-collection';
 import { FilterEmitterService } from 'src/app/services/filter-emitter/filter-emitter.service';
 import { RestaurantList } from 'src/app/classes/restaurant-list';
+import { MatDialog } from '@angular/material/dialog';
+import { RestaurantDialogComponent } from '../restaurant-dialog/restaurant-dialog.component';
 
 @Component({
 	selector: 'home',
@@ -15,7 +17,8 @@ export class HomeComponent implements OnInit
 	collection: RestaurantCollection;
 
 	constructor(
-		private emitter: FilterEmitterService
+		private emitter: FilterEmitterService,
+		private dialog: MatDialog
 	) { }
 
 	ngOnInit(): void
@@ -24,11 +27,11 @@ export class HomeComponent implements OnInit
 		this.emitter.search.subscribe(q => this.collection.search(q));
 	}
 
-	calcAvgRating(ratings: Rating)
+	calcAvgRating(ratings: Rating): number
 	{
-		let values = Object.values(ratings).filter(n => n);
+		let values = Object.values(ratings).map(n => n.rate).filter(n => n);
 		let ret = (values.reduce((a, b) => a + b, 0) / values.length) || null;
-		return ret ? (Math.round(ret * 100) / 100).toFixed(2) : 'Unrated';
+		return ret ? Math.round(ret * 1e2) / 1e2 : null;
 	}
 
 	getPriceRange(cost: number)
@@ -40,6 +43,14 @@ export class HomeComponent implements OnInit
 		}
 		
 		return ret;
+	}
+
+	openMoreDialog(restaurant: Restaurant): void
+	{
+		this.dialog.open(RestaurantDialogComponent, {
+			data: restaurant,
+			width: '70vh'
+		});
 	}
 
 }

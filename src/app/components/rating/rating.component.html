@@ -1,0 +1,14 @@
+<span class="star-ratings">
+	{{ avg_rating ?? 'Unrated' }}
+	<span class="filled-stars" *ngFor="let item of [].constructor(filled);">
+		<mat-icon>star</mat-icon>
+	</span>
+
+	<span class="half-star" *ngIf="has_remainder">
+		<mat-icon>star_half</mat-icon>
+	</span>
+
+	<span class="empty-stars" *ngFor="let item of [].constructor(empty);">
+		<mat-icon>star_border</mat-icon>
+	</span>
+</span>

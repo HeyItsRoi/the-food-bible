@@ -1,0 +1,8 @@
+<div class="restaurant-dialog">
+	<h2 mat-dialog-title>{{ data.name }}</h2>
+	<span class="mat-dialog-subtitle">{{ getPriceRange(data.cost) }} ‧ {{ data.cuisine }} ‧ {{ data.location }}</span>
+
+	<mat-dialog-content class="mat-typography">
+		<h1><rating [ratings]="data.rating"></rating></h1>
+	</mat-dialog-content>
+</div>

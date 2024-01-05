@@ -13,15 +13,27 @@ export let RestaurantList = [
 		"has_outdoor": false,
 		"cost": 2,
 		"rating": {
-			"sunny" : 5.0,
-			"roi" : 4.7,
-			"kishant" : 3.0,
-			"kevin" : 4.0,
-			"ray" : 5.0
-		},
-		"extra_notes": [
-			"Home sweet home" 
-		]
+			"sunny": {
+				"rate": 5.0,
+				"comment": "Home sweet home"
+			},
+			"roi": {
+				"rate": 4.7,
+				"comment": ""
+			},
+			"kishant": {
+				"rate": 3.0,
+				"comment": ""
+			},
+			"kevin": {
+				"rate": 4.0,
+				"comment": ""
+			},
+			"ray": {
+				"rate": 5.0,
+				"comment": ""
+			}
+		}
 	},
 	{
 		"name": "Samcha",
@@ -37,15 +49,27 @@ export let RestaurantList = [
 		"has_outdoor": false,
 		"cost": 2,
 		"rating": {
-			"sunny" : 4.0,
-			"roi" : 4.1,
-			"kishant" : null,
-			"kevin" : null,
-			"ray" : null
-		},
-		"extra_notes": [
-			
-		]
+			"sunny": {
+				"rate": 4.0,
+				"comment": ""
+			},
+			"roi": {
+				"rate": 4.1,
+				"comment": ""
+			},
+			"kishant": {
+				"rate": null,
+				"comment": ""
+			},
+			"kevin": {
+				"rate": null,
+				"comment": ""
+			},
+			"ray": {
+				"rate": null,
+				"comment": ""
+			}
+		}
 	},
 	{
 		"name": "T'ami",
@@ -61,15 +85,27 @@ export let RestaurantList = [
 		"has_outdoor": false,
 		"cost": 2,
 		"rating": {
-			"sunny" : null,
-			"roi" : null,
-			"kishant" : null,
-			"kevin" : null,
-			"ray" : null
-		},
-		"extra_notes": [
-			"Casual Spot" 
-		]
+			"sunny": {
+				"rate": null,
+				"comment": ""
+			},
+			"roi": {
+				"rate": null,
+				"comment": "Casual Spot"
+			},
+			"kishant": {
+				"rate": null,
+				"comment": ""
+			},
+			"kevin": {
+				"rate": null,
+				"comment": ""
+			},
+			"ray": {
+				"rate": null,
+				"comment": ""
+			}
+		}
 	},
 	{
 		"name": "Pony BBQ",
@@ -85,15 +121,27 @@ export let RestaurantList = [
 		"has_outdoor": false,
 		"cost": 2,
 		"rating": {
-			"sunny" : null,
-			"roi" : null,
-			"kishant" : null,
-			"kevin" : null,
-			"ray" : null
-		},
-		"extra_notes": [
-			
-		]
+			"sunny": {
+				"rate": null,
+				"comment": ""
+			},
+			"roi": {
+				"rate": null,
+				"comment": ""
+			},
+			"kishant": {
+				"rate": null,
+				"comment": ""
+			},
+			"kevin": {
+				"rate": null,
+				"comment": ""
+			},
+			"ray": {
+				"rate": null,
+				"comment": ""
+			}
+		}
 	},
 	{
 		"name": "Joyo Burger",
@@ -109,15 +157,27 @@ export let RestaurantList = [
 		"has_outdoor": false,
 		"cost": 1,
 		"rating": {
-			"sunny" : null,
-			"roi" : null,
-			"kishant" : null,
-			"kevin" : null,
-			"ray" : null
-		},
-		"extra_notes": [
-			
-		]
+			"sunny": {
+				"rate": null,
+				"comment": ""
+			},
+			"roi": {
+				"rate": null,
+				"comment": ""
+			},
+			"kishant": {
+				"rate": null,
+				"comment": ""
+			},
+			"kevin": {
+				"rate": null,
+				"comment": ""
+			},
+			"ray": {
+				"rate": null,
+				"comment": ""
+			}
+		}
 	},
 	{
 		"name": "Ciccio's",
@@ -133,15 +193,27 @@ export let RestaurantList = [
 		"has_outdoor": false,
 		"cost": 1,
 		"rating": {
-			"sunny" : null,
-			"roi" : null,
-			"kishant" : null,
-			"kevin" : null,
-			"ray" : null
-		},
-		"extra_notes": [
-			
-		]
+			"sunny": {
+				"rate": null,
+				"comment": ""
+			},
+			"roi": {
+				"rate": null,
+				"comment": ""
+			},
+			"kishant": {
+				"rate": null,
+				"comment": ""
+			},
+			"kevin": {
+				"rate": null,
+				"comment": ""
+			},
+			"ray": {
+				"rate": null,
+				"comment": ""
+			}
+		}
 	},
 	{
 		"name": "Plan B",
@@ -157,15 +229,27 @@ export let RestaurantList = [
 		"has_outdoor": false,
 		"cost": 1,
 		"rating": {
-			"sunny" : null,
-			"roi" : null,
-			"kishant" : null,
-			"kevin" : null,
-			"ray" : null
-		},
-		"extra_notes": [
-			 
-		]
+			"sunny": {
+				"rate": null,
+				"comment": ""
+			},
+			"roi": {
+				"rate": null,
+				"comment": ""
+			},
+			"kishant": {
+				"rate": null,
+				"comment": ""
+			},
+			"kevin": {
+				"rate": null,
+				"comment": ""
+			},
+			"ray": {
+				"rate": null,
+				"comment": ""
+			}
+		}
 	},
 	{
 		"name": "Crusty's",
@@ -181,15 +265,27 @@ export let RestaurantList = [
 		"has_outdoor": false,
 		"cost": 1,
 		"rating": {
-			"sunny" : null,
-			"roi" : null,
-			"kishant" : null,
-			"kevin" : null,
-			"ray" : null
-		},
-		"extra_notes": [
-			"Multiple location" 
-		]
+			"sunny": {
+				"rate": null,
+				"comment": ""
+			},
+			"roi": {
+				"rate": null,
+				"comment": ""
+			},
+			"kishant": {
+				"rate": null,
+				"comment": ""
+			},
+			"kevin": {
+				"rate": null,
+				"comment": ""
+			},
+			"ray": {
+				"rate": null,
+				"comment": ""
+			}
+		}
 	},
 	{
 		"name": "Ma Poule Mouille",
@@ -205,15 +301,27 @@ export let RestaurantList = [
 		"has_outdoor": false,
 		"cost": 1,
 		"rating": {
-			"sunny" : null,
-			"roi" : null,
-			"kishant" : null,
-			"kevin" : null,
-			"ray" : null
-		},
-		"extra_notes": [
-			 
-		]
+			"sunny": {
+				"rate": null,
+				"comment": ""
+			},
+			"roi": {
+				"rate": null,
+				"comment": ""
+			},
+			"kishant": {
+				"rate": null,
+				"comment": ""
+			},
+			"kevin": {
+				"rate": null,
+				"comment": ""
+			},
+			"ray": {
+				"rate": null,
+				"comment": ""
+			}
+		}
 	},
 	{
 		"name": "Ewha Shiro",
@@ -229,15 +337,27 @@ export let RestaurantList = [
 		"has_outdoor": false,
 		"cost": 1,
 		"rating": {
-			"sunny" : null,
-			"roi" : null,
-			"kishant" : null,
-			"kevin" : null,
-			"ray" : null
-		},
-		"extra_notes": [
-			 
-		]
+			"sunny": {
+				"rate": null,
+				"comment": ""
+			},
+			"roi": {
+				"rate": null,
+				"comment": ""
+			},
+			"kishant": {
+				"rate": null,
+				"comment": ""
+			},
+			"kevin": {
+				"rate": null,
+				"comment": ""
+			},
+			"ray": {
+				"rate": null,
+				"comment": ""
+			}
+		}
 	},
 	{
 		"name": "Resto Melisse",
@@ -253,15 +373,27 @@ export let RestaurantList = [
 		"has_outdoor": false,
 		"cost": 2,
 		"rating": {
-			"sunny" : null,
-			"roi" : null,
-			"kishant" : null,
-			"kevin" : null,
-			"ray" : null
-		},
-		"extra_notes": [
-
-		]
+			"sunny": {
+				"rate": null,
+				"comment": ""
+			},
+			"roi": {
+				"rate": null,
+				"comment": ""
+			},
+			"kishant": {
+				"rate": null,
+				"comment": ""
+			},
+			"kevin": {
+				"rate": null,
+				"comment": ""
+			},
+			"ray": {
+				"rate": null,
+				"comment": ""
+			}
+		}
 	},
 	{
 		"name": "Amerigo",
@@ -277,15 +409,27 @@ export let RestaurantList = [
 		"has_outdoor": false,
 		"cost": 2,
 		"rating": {
-			"sunny" : null,
-			"roi" : null,
-			"kishant" : null,
-			"kevin" : null,
-			"ray" : null
-		},
-		"extra_notes": [
-			
-		]
+			"sunny": {
+				"rate": null,
+				"comment": ""
+			},
+			"roi": {
+				"rate": null,
+				"comment": ""
+			},
+			"kishant": {
+				"rate": null,
+				"comment": ""
+			},
+			"kevin": {
+				"rate": null,
+				"comment": ""
+			},
+			"ray": {
+				"rate": null,
+				"comment": ""
+			}
+		}
 	},
 	{
 		"name": "Le 409",
@@ -301,15 +445,27 @@ export let RestaurantList = [
 		"has_outdoor": false,
 		"cost": 2,
 		"rating": {
-			"sunny" : null,
-			"roi" : null,
-			"kishant" : null,
-			"kevin" : null,
-			"ray" : null
-		},
-		"extra_notes": [
-			
-		]
+			"sunny": {
+				"rate": null,
+				"comment": ""
+			},
+			"roi": {
+				"rate": null,
+				"comment": ""
+			},
+			"kishant": {
+				"rate": null,
+				"comment": ""
+			},
+			"kevin": {
+				"rate": null,
+				"comment": ""
+			},
+			"ray": {
+				"rate": null,
+				"comment": ""
+			}
+		}
 	},
 	{
 		"name": "Jako",
@@ -325,15 +481,27 @@ export let RestaurantList = [
 		"has_outdoor": false,
 		"cost": 2,
 		"rating": {
-			"sunny" : null,
-			"roi" : 3.9,
-			"kishant" : null,
-			"kevin" : null,
-			"ray" : null
-		},
-		"extra_notes": [
-			
-		]
+			"sunny": {
+				"rate": null,
+				"comment": ""
+			},
+			"roi": {
+				"rate": 3.9,
+				"comment": ""
+			},
+			"kishant": {
+				"rate": null,
+				"comment": ""
+			},
+			"kevin": {
+				"rate": null,
+				"comment": ""
+			},
+			"ray": {
+				"rate": null,
+				"comment": ""
+			}
+		}
 	},
 	{
 		"name": "Daldongnae",
@@ -349,15 +517,27 @@ export let RestaurantList = [
 		"has_outdoor": false,
 		"cost": 2,
 		"rating": {
-			"sunny" : null,
-			"roi" : null,
-			"kishant" : null,
-			"kevin" : null,
-			"ray" : null
-		},
-		"extra_notes": [
-			
-		]
+			"sunny": {
+				"rate": null,
+				"comment": ""
+			},
+			"roi": {
+				"rate": null,
+				"comment": ""
+			},
+			"kishant": {
+				"rate": null,
+				"comment": ""
+			},
+			"kevin": {
+				"rate": null,
+				"comment": ""
+			},
+			"ray": {
+				"rate": null,
+				"comment": ""
+			}
+		}
 	},
 	{
 		"name": "Resto Melisse",
@@ -373,15 +553,27 @@ export let RestaurantList = [
 		"has_outdoor": false,
 		"cost": 2,
 		"rating": {
-			"sunny" : null,
-			"roi" : null,
-			"kishant" : null,
-			"kevin" : null,
-			"ray" : null
-		},
-		"extra_notes": [
-			
-		]
+			"sunny": {
+				"rate": null,
+				"comment": ""
+			},
+			"roi": {
+				"rate": null,
+				"comment": ""
+			},
+			"kishant": {
+				"rate": null,
+				"comment": ""
+			},
+			"kevin": {
+				"rate": null,
+				"comment": ""
+			},
+			"ray": {
+				"rate": null,
+				"comment": ""
+			}
+		}
 	},
 	{
 		"name": "Sammi & Soupe Dumplings",
@@ -397,15 +589,27 @@ export let RestaurantList = [
 		"has_outdoor": false,
 		"cost": 1,
 		"rating": {
-			"sunny" : null,
-			"roi" : null,
-			"kishant" : null,
-			"kevin" : null,
-			"ray" : null
-		},
-		"extra_notes": [
-			"Multiple location"
-		]
+			"sunny": {
+				"rate": null,
+				"comment": ""
+			},
+			"roi": {
+				"rate": null,
+				"comment": "Multiple Location"
+			},
+			"kishant": {
+				"rate": null,
+				"comment": ""
+			},
+			"kevin": {
+				"rate": null,
+				"comment": ""
+			},
+			"ray": {
+				"rate": null,
+				"comment": ""
+			}
+		}
 	},
 	{
 		"name": "Pâtisserie T.M",
@@ -421,15 +625,27 @@ export let RestaurantList = [
 		"has_outdoor": false,
 		"cost": 2,
 		"rating": {
-			"sunny" : null,
-			"roi" : null,
-			"kishant" : null,
-			"kevin" : null,
-			"ray" : null
-		},
-		"extra_notes": [
-			
-		]
+			"sunny": {
+				"rate": null,
+				"comment": ""
+			},
+			"roi": {
+				"rate": null,
+				"comment": ""
+			},
+			"kishant": {
+				"rate": null,
+				"comment": ""
+			},
+			"kevin": {
+				"rate": null,
+				"comment": ""
+			},
+			"ray": {
+				"rate": null,
+				"comment": ""
+			}
+		}
 	},
 	{
 		"name": "La Panzeria",
@@ -445,15 +661,27 @@ export let RestaurantList = [
 		"has_outdoor": false,
 		"cost": 1,
 		"rating": {
-			"sunny" : null,
-			"roi" : null,
-			"kishant" : null,
-			"kevin" : null,
-			"ray" : null
-		},
-		"extra_notes": [
-			
-		]
+			"sunny": {
+				"rate": null,
+				"comment": ""
+			},
+			"roi": {
+				"rate": null,
+				"comment": ""
+			},
+			"kishant": {
+				"rate": null,
+				"comment": ""
+			},
+			"kevin": {
+				"rate": null,
+				"comment": ""
+			},
+			"ray": {
+				"rate": null,
+				"comment": ""
+			}
+		}
 	},
 	{
 		"name": "Mont Brise",
@@ -469,15 +697,27 @@ export let RestaurantList = [
 		"has_outdoor": false,
 		"cost": 2,
 		"rating": {
-			"sunny" : null,
-			"roi" : null,
-			"kishant" : null,
-			"kevin" : null,
-			"ray" : null
-		},
-		"extra_notes": [
-			"Authentic Japanese Food"
-		]
+			"sunny": {
+				"rate": null,
+				"comment": ""
+			},
+			"roi": {
+				"rate": null,
+				"comment": "Authentic Japanese Food"
+			},
+			"kishant": {
+				"rate": null,
+				"comment": ""
+			},
+			"kevin": {
+				"rate": null,
+				"comment": ""
+			},
+			"ray": {
+				"rate": null,
+				"comment": ""
+			}
+		}
 	},
 	{
 		"name": "Tempura Kyodai",
@@ -493,15 +733,27 @@ export let RestaurantList = [
 		"has_outdoor": false,
 		"cost": 2,
 		"rating": {
-			"sunny" : null,
-			"roi" : null,
-			"kishant" : null,
-			"kevin" : null,
-			"ray" : null
-		},
-		"extra_notes": [
-			
-		]
+			"sunny": {
+				"rate": null,
+				"comment": ""
+			},
+			"roi": {
+				"rate": null,
+				"comment": ""
+			},
+			"kishant": {
+				"rate": null,
+				"comment": ""
+			},
+			"kevin": {
+				"rate": null,
+				"comment": ""
+			},
+			"ray": {
+				"rate": null,
+				"comment": ""
+			}
+		}
 	},
 	{
 		"name": "Neo Tokyo",
@@ -517,15 +769,27 @@ export let RestaurantList = [
 		"has_outdoor": false,
 		"cost": 2,
 		"rating": {
-			"sunny" : 3.5,
-			"roi" : 4.2,
-			"kishant" : null,
-			"kevin" : null,
-			"ray" : null
-		},
-		"extra_notes": [
-			
-		]
+			"sunny": {
+				"rate": 3.5,
+				"comment": ""
+			},
+			"roi": {
+				"rate": 4.2,
+				"comment": ""
+			},
+			"kishant": {
+				"rate": null,
+				"comment": ""
+			},
+			"kevin": {
+				"rate": null,
+				"comment": ""
+			},
+			"ray": {
+				"rate": null,
+				"comment": ""
+			}
+		}
 	},
 	{
 		"name": "Chimaek Gana",
@@ -541,15 +805,27 @@ export let RestaurantList = [
 		"has_outdoor": false,
 		"cost": 2,
 		"rating": {
-			"sunny" : null,
-			"roi" : 4.5,
-			"kishant" : null,
-			"kevin" : null,
-			"ray" : null
-		},
-		"extra_notes": [
-			
-		]
+			"sunny": {
+				"rate": null,
+				"comment": ""
+			},
+			"roi": {
+				"rate": 4.5,
+				"comment": ""
+			},
+			"kishant": {
+				"rate": null,
+				"comment": ""
+			},
+			"kevin": {
+				"rate": null,
+				"comment": ""
+			},
+			"ray": {
+				"rate": null,
+				"comment": ""
+			}
+		}
 	},
 	{
 		"name": "Dessert Coréen Crofre",
@@ -565,15 +841,27 @@ export let RestaurantList = [
 		"has_outdoor": false,
 		"cost": 1,
 		"rating": {
-			"sunny" : null,
-			"roi" : null,
-			"kishant" : null,
-			"kevin" : null,
-			"ray" : null
-		},
-		"extra_notes": [
-			"Times may vary"
-		]
+			"sunny": {
+				"rate": null,
+				"comment": ""
+			},
+			"roi": {
+				"rate": null,
+				"comment": "Times may vary"
+			},
+			"kishant": {
+				"rate": null,
+				"comment": ""
+			},
+			"kevin": {
+				"rate": null,
+				"comment": ""
+			},
+			"ray": {
+				"rate": null,
+				"comment": ""
+			}
+		}
 	},
 	{
 		"name": "McKiernan",
@@ -589,15 +877,27 @@ export let RestaurantList = [
 		"has_outdoor": false,
 		"cost": 2,
 		"rating": {
-			"sunny" : null,
-			"roi" : null,
-			"kishant" : null,
-			"kevin" : null,
-			"ray" : null
-		},
-		"extra_notes": [
-			"Need a car"
-		]
+			"sunny": {
+				"rate": null,
+				"comment": ""
+			},
+			"roi": {
+				"rate": null,
+				"comment": "Need a car"
+			},
+			"kishant": {
+				"rate": null,
+				"comment": ""
+			},
+			"kevin": {
+				"rate": null,
+				"comment": ""
+			},
+			"ray": {
+				"rate": null,
+				"comment": ""
+			}
+		}
 	},
 	{
 		"name": "India Rosa",
@@ -613,15 +913,27 @@ export let RestaurantList = [
 		"has_outdoor": false,
 		"cost": 2,
 		"rating": {
-			"sunny" : null,
-			"roi" : null,
-			"kishant" : null,
-			"kevin" : null,
-			"ray" : null
-		},
-		"extra_notes": [
-			"Multiple Branch"
-		]
+			"sunny": {
+				"rate": null,
+				"comment": ""
+			},
+			"roi": {
+				"rate": null,
+				"comment": "Multiple Branch"
+			},
+			"kishant": {
+				"rate": null,
+				"comment": ""
+			},
+			"kevin": {
+				"rate": null,
+				"comment": ""
+			},
+			"ray": {
+				"rate": null,
+				"comment": ""
+			}
+		}
 	},
 	{
 		"name": "Tiramisu",
@@ -637,15 +949,27 @@ export let RestaurantList = [
 		"has_outdoor": false,
 		"cost": 2,
 		"rating": {
-			"sunny" : null,
-			"roi" : null,
-			"kishant" : null,
-			"kevin" : null,
-			"ray" : null
-		},
-		"extra_notes": [
-			
-		]
+			"sunny": {
+				"rate": null,
+				"comment": ""
+			},
+			"roi": {
+				"rate": null,
+				"comment": ""
+			},
+			"kishant": {
+				"rate": null,
+				"comment": ""
+			},
+			"kevin": {
+				"rate": null,
+				"comment": ""
+			},
+			"ray": {
+				"rate": null,
+				"comment": ""
+			}
+		}
 	},
 	{
 		"name": "Evalina's",
@@ -661,15 +985,27 @@ export let RestaurantList = [
 		"has_outdoor": false,
 		"cost": 2,
 		"rating": {
-			"sunny" : null,
-			"roi" : null,
-			"kishant" : null,
-			"kevin" : null,
-			"ray" : null
-		},
-		"extra_notes": [
-			
-		]
+			"sunny": {
+				"rate": null,
+				"comment": ""
+			},
+			"roi": {
+				"rate": null,
+				"comment": ""
+			},
+			"kishant": {
+				"rate": null,
+				"comment": ""
+			},
+			"kevin": {
+				"rate": null,
+				"comment": ""
+			},
+			"ray": {
+				"rate": null,
+				"comment": ""
+			}
+		}
 	},
 	{
 		"name": "Hiatus Mtl",
@@ -685,15 +1021,27 @@ export let RestaurantList = [
 		"has_outdoor": false,
 		"cost": 2,
 		"rating": {
-			"sunny" : null,
-			"roi" : null,
-			"kishant" : null,
-			"kevin" : null,
-			"ray" : null
-		},
-		"extra_notes": [
-			"Go here for some coffee and the view"
-		]
+			"sunny": {
+				"rate": null,
+				"comment": ""
+			},
+			"roi": {
+				"rate": null,
+				"comment": "Go here for some coffee and the view"
+			},
+			"kishant": {
+				"rate": null,
+				"comment": ""
+			},
+			"kevin": {
+				"rate": null,
+				"comment": ""
+			},
+			"ray": {
+				"rate": null,
+				"comment": ""
+			}
+		}
 	},
 	{
 		"name": "Accio Cup",
@@ -709,15 +1057,27 @@ export let RestaurantList = [
 		"has_outdoor": false,
 		"cost": 2,
 		"rating": {
-			"sunny" : null,
-			"roi" : null,
-			"kishant" : null,
-			"kevin" : null,
-			"ray" : null
-		},
-		"extra_notes": [
-			"Make sure to go early, the desserts run out at night"
-		]
+			"sunny": {
+				"rate": null,
+				"comment": ""
+			},
+			"roi": {
+				"rate": null,
+				"comment": "Make sure to go early, the desserts run out at night"
+			},
+			"kishant": {
+				"rate": null,
+				"comment": ""
+			},
+			"kevin": {
+				"rate": null,
+				"comment": ""
+			},
+			"ray": {
+				"rate": null,
+				"comment": ""
+			}
+		}
 	},
 	{
 		"name": "Par Amour Pâtisserie Cafe",
@@ -733,15 +1093,27 @@ export let RestaurantList = [
 		"has_outdoor": false,
 		"cost": 2,
 		"rating": {
-			"sunny" : null,
-			"roi" : null,
-			"kishant" : null,
-			"kevin" : null,
-			"ray" : null
-		},
-		"extra_notes": [
-			"Suggest taking a car"
-		]
+			"sunny": {
+				"rate": null,
+				"comment": ""
+			},
+			"roi": {
+				"rate": null,
+				"comment": "Suggest taking a car"
+			},
+			"kishant": {
+				"rate": null,
+				"comment": ""
+			},
+			"kevin": {
+				"rate": null,
+				"comment": ""
+			},
+			"ray": {
+				"rate": null,
+				"comment": ""
+			}
+		}
 	},
 	{
 		"name": "Gyu Kaku",
@@ -757,15 +1129,27 @@ export let RestaurantList = [
 		"has_outdoor": false,
 		"cost": 2,
 		"rating": {
-			"sunny" : null,
-			"roi" : null,
-			"kishant" : null,
-			"kevin" : null,
-			"ray" : null
-		},
-		"extra_notes": [
-			
-		]
+			"sunny": {
+				"rate": null,
+				"comment": ""
+			},
+			"roi": {
+				"rate": null,
+				"comment": ""
+			},
+			"kishant": {
+				"rate": null,
+				"comment": ""
+			},
+			"kevin": {
+				"rate": null,
+				"comment": ""
+			},
+			"ray": {
+				"rate": null,
+				"comment": ""
+			}
+		}
 	},
 	{
 		"name": "Seoul Dosirak",
@@ -781,15 +1165,27 @@ export let RestaurantList = [
 		"has_outdoor": false,
 		"cost": 2,
 		"rating": {
-			"sunny" : null,
-			"roi" : null,
-			"kishant" : null,
-			"kevin" : null,
-			"ray" : null
-		},
-		"extra_notes": [
-			"Looks like a casual spot, offers croffles as well"
-		]
+			"sunny": {
+				"rate": null,
+				"comment": ""
+			},
+			"roi": {
+				"rate": null,
+				"comment": "Looks like a casual spot, offers coffles as well"
+			},
+			"kishant": {
+				"rate": null,
+				"comment": ""
+			},
+			"kevin": {
+				"rate": null,
+				"comment": ""
+			},
+			"ray": {
+				"rate": null,
+				"comment": ""
+			}
+		}
 	},
 	{
 		"name": "Satay Brothers",
@@ -805,14 +1201,26 @@ export let RestaurantList = [
 		"has_outdoor": false,
 		"cost": 2,
 		"rating": {
-			"sunny" : null,
-			"roi" : null,
-			"kishant" : null,
-			"kevin" : null,
-			"ray" : null
-		},
-		"extra_notes": [
-			
-		]
+			"sunny": {
+				"rate": null,
+				"comment": ""
+			},
+			"roi": {
+				"rate": null,
+				"comment": ""
+			},
+			"kishant": {
+				"rate": null,
+				"comment": ""
+			},
+			"kevin": {
+				"rate": null,
+				"comment": ""
+			},
+			"ray": {
+				"rate": null,
+				"comment": ""
+			}
+		}
 	}
 ];

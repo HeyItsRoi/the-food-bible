@@ -1,0 +1,14 @@
+.star-ratings 
+{
+	.filled-stars, .empty-stars, .half-star
+	{
+		mat-icon 
+		{
+			height: 11px;
+			width: 11px;
+			padding-right: 10px;
+			color: #fece3c;
+			// vertical-align: middle;
+		}
+	}
+}
