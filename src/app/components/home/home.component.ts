@@ -3,7 +3,7 @@ import { Rating, Restaurant } from 'src/app/classes/restaurants';
 import { RestaurantCollection } from 'src/app/classes/restaurant-collection';
 import { FilterEmitterService } from 'src/app/services/filter-emitter/filter-emitter.service';
 import { RestaurantList } from 'src/app/classes/restaurant-list';
-import { MatDialog } from '@angular/material/dialog';
+import { MatLegacyDialog as MatDialog } from '@angular/material/legacy-dialog';
 import { RestaurantDialogComponent } from '../restaurant-dialog/restaurant-dialog.component';
 
 @Component({
