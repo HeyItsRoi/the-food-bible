@@ -3,6 +3,7 @@ import { Rating, Restaurant } from 'src/app/classes/restaurants';
 import { RestaurantCollection } from 'src/app/classes/restaurant-collection';
 import { FilterEmitterService } from 'src/app/services/filter-emitter/filter-emitter.service';
 import { RestaurantList } from 'src/app/classes/restaurant-list';
+import { MatDialog } from '@angular/material/dialog';
 import { RestaurantDialogComponent } from '../restaurant-dialog/restaurant-dialog.component';
 
 @Component({
@@ -17,6 +18,7 @@ export class HomeComponent implements OnInit
 
 	constructor(
 		private emitter: FilterEmitterService,
+		private dialog: MatDialog
 	) { }
 
 	ngOnInit(): void
@@ -45,10 +47,10 @@ export class HomeComponent implements OnInit
 
 	openMoreDialog(restaurant: Restaurant): void
 	{
-		// this.dialog.open(RestaurantDialogComponent, {
-		// 	data: restaurant,
-		// 	width: '70vh'
-		// });
+		this.dialog.open(RestaurantDialogComponent, {
+			data: restaurant,
+			width: '70vh'
+		});
 	}
 
 }
